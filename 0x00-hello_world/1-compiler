@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c comp.c > comp.o
