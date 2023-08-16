@@ -1,7 +1,9 @@
+#include "main.h"
+
 /**
  * _islower - Entry point
- *
- * Return: 1
+ *@c: the input character
+ * Return: 1 if lowercse, 0 if not
  */
 int _islower(int c)
 {
