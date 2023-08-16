@@ -1,6 +1,3 @@
-#include "main.h"
-#include <ctype.h>
-
 /**
  * _islower - Entry point
  *
@@ -8,7 +5,7 @@
  */
 int _islower(int c)
 {
-	if (islower(c) == 1)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	} else 
