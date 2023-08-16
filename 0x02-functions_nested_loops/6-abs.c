@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * _abs - gets absolue value of a number
@@ -9,6 +8,8 @@
  */
 int _abs(int j)
 {
-	abs();
-	return (j);
+	if (j >= 0)
+		return(j);
+	else
+		return(-j);
 }
