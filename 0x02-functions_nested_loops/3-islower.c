@@ -8,7 +8,12 @@
  */
 int _islower(int c)
 {
-	islower_1(c);
-	return (1);
+	if (islower(c) = 1)
+	{
+		return (1);
+	}else 
+	{
+		return (0);
+	}
 }
 
