@@ -5,7 +5,7 @@
  * @n: number of lines
  *
  */
-void print_lines(int n)
+void print_line(int n)
 {
 	int i = 0;
 
