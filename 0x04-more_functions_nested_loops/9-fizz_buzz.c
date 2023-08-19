@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - prints fizz for x3 buzz for x5 and fizzbuzzz for both
- * main - entry point
+ * main - prints fizz for x3 buzz for x5 and fizzbuzzz for both
  *
  * Return: 0
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -21,12 +20,10 @@ void fizz_buzz(void)
 			printf("Buzz");
 		else
 			printf("%d",i);
+		if (n==100)
+			continue;
 		putchar(' ');
 	}
 	putchar('\n');
-}
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
