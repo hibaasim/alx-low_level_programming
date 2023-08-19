@@ -3,7 +3,9 @@
 
 /**
  * fizz_buzz - prints fizz for x3 buzz for x5 and fizzbuzzz for both
+ * main - entry point
  *
+ * Return: 0
  */
 void fizz_buzz(void)
 {
@@ -22,4 +24,9 @@ void fizz_buzz(void)
 		putchar(' ');
 	}
 	putchar('\n');
+}
+int main(void)
+{
+	fizz_buzz();
+	return (0);
 }
