@@ -7,11 +7,9 @@
  */
 void _puts(char *str)
 {
-	int rin = *(str);
-
-	while (*str != '\0')
+	while (*str)
 	{ 
-		_putchar(rin);
-		str++;
+		_putchar(*str++);
 	}
+	_putchar('\n')
 }
