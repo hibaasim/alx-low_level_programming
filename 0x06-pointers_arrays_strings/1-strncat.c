@@ -4,6 +4,7 @@
  * _strncat - concatenates n values from string
  * @dest: destionation string
  * @src: source string
+ * @n: valuse to be concatenated
  *
  * Return: cocatenated string
  */
