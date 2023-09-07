@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	if (argc > 2)
 	{
 		res = atoi(argv[1]) * atoi(argv[2]);
-		printf ("%d\n", res);
+		printf("%d\n", res);
 	}
 	else
 		printf("Error\n");
