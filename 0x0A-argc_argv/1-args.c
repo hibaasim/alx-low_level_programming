@@ -2,7 +2,7 @@
 
 /**
  * main -Entry point
- * @rgc: counts arguments
+ * @argc: counts arguments
  * @argv: shows arguments
  *
  * Return: Always 0(Success)
