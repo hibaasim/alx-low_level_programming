@@ -21,6 +21,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	cp(p, size * nmemb);
 	return (p);
 }
+/**
+ * cp - initializes the allocated memory
+ * @st: pointer to memory
+ * @size: size of memory
+ *
+ * Return: initialized pointer
+ */
 char *cp(char *st, unsigned int size)
 {
 	unsigned int i;
