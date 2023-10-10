@@ -4,3 +4,5 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
