@@ -1,1 +1,2 @@
-This project is about preprocessing
+This is the low level programming directory for C language.
+ 
