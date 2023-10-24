@@ -29,7 +29,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		if (rep == NULL || rep->next == NULL)
 		{
-			free(rep);
 			return (NULL);
 		}
 		rep = rep->next;
