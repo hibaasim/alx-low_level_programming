@@ -57,8 +57,8 @@ int main(int argc, char **argv)
 	}
 	while ((rea = read(from, buf, 1024)) > 0)
 	{
-		wri = write(to, buf, rea);
-		if (wri != rea)
+		/*wri = write(to, buf, rea);*/
+		if ((wri = write(to, buf, rea)) != rea)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to argv[2]\n");
 			exit(99);
