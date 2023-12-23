@@ -4,6 +4,8 @@
  * key_index - gives key index
  * @key: pointer to key
  * @size: size of array
+ *
+ * Return: the index
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
