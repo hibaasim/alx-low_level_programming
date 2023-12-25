@@ -43,10 +43,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
  * @ht: hash table
  * @key: key
  * @value: value
+ * @i: index
  *
  * Return: address to the new node
 */
-hash_node_t *new_node(hash_table_t *ht, const char *key, const char *value, unsigned long int i)
+hash_node_t *new_node(hash_table_t *ht, const char *key,
+const char *value, unsigned long int i)
 {
 	hash_node_t *new;
 	unsigned long int n = i;
